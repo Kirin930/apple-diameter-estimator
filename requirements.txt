@@ -1,0 +1,12 @@
+# core scientific stack
+numpy>=1.20
+opencv-python>=4.5
+matplotlib>=3.3
+
+# Detectron2 submodule is built from source in Colab, so no detectron2 here
+# but we will need pycocotools for annotations
+pycocotools>=2.0.2
+
+# any other utilities you use:
+torchvision>=0.15.2  # for visualization if needed
+tqdm>=4.60

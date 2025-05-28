@@ -1,0 +1,20 @@
+_BASE_: "COCO-InstanceSegmentation/mask_rcnn_R_50_FPN_1x.yaml"
+
+MODEL:
+  PIXEL_MEAN: [103.530, 116.280, 123.675, 128.0]  # add depth channel mean
+  INPUT:
+    FORMAT: "RGBD"
+
+DATASETS:
+  TRAIN: ("apple_train",)
+  TEST:  ("apple_val",)
+
+DATALOADER:
+  NUM_WORKERS: 4
+
+SOLVER:
+  IMS_PER_BATCH: 2
+  BASE_LR: 0.00025
+  MAX_ITER: 20000
+
+OUTPUT_DIR: "./output"
