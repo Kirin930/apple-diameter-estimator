@@ -4,6 +4,7 @@ from detectron2.config import get_cfg
 from detectron2 import model_zoo
 from detectron2.engine import DefaultTrainer
 
+
 def setup_cfg(args):
     cfg = get_cfg()
     # load base config
