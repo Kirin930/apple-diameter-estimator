@@ -78,6 +78,11 @@ Example (illustrative):
 }
 
 ```
+## Citation
+
+If you use this repository in academic work, please cite:
+
+```bibtex
 @misc{mazzotti_apple_diameter_estimator,
   author       = {Nicola Mazzotti},
   title        = {apple-diameter-estimator: RGB-D Apple Diameter Estimation with Detectron2},
