@@ -86,6 +86,6 @@ If you use this repository in academic work, please cite:
 @misc{mazzotti_apple_diameter_estimator,
   author       = {Nicola Mazzotti},
   title        = {apple-diameter-estimator: RGB-D Apple Diameter Estimation with Detectron2},
-  year         = {2026},
+  year         = {2025},
   howpublished = {\url{https://github.com/Kirin930/apple-diameter-estimator}},
 }
