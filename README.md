@@ -76,3 +76,11 @@ Example (illustrative):
   ],
   "categories": [{ "id": 1, "name": "apple" }]
 }
+
+```
+@misc{mazzotti_apple_diameter_estimator,
+  author       = {Nicola Mazzotti},
+  title        = {apple-diameter-estimator: RGB-D Apple Diameter Estimation with Detectron2},
+  year         = {2026},
+  howpublished = {\url{https://github.com/Kirin930/apple-diameter-estimator}},
+}
