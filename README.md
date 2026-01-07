@@ -78,6 +78,8 @@ Example (illustrative):
 }
 
 ```
+You can access the datesets used here: https://tevelnuc.tailcb3d64.ts.net/browser/snapshots-data
+
 ## Citation
 
 If you use this repository in academic work, please cite:
